@@ -16,22 +16,6 @@ Geliştirilen kural tabanlı KDS motoru, şerit merkezinden piksel sapma indeksi
 
 ---
 
-## 📁 Depo İçerik Haritası ve Dosya Açıklamaları
-
-Proje klasörü, uçtan uca doğrulanabilir ve modüler bir yazılım hattı (pipeline) sunacak şekilde yapılandırılmıştır:
-
-| Dosya / Klasör Adı | Açıklama |
-| :--- | :--- |
-| `otonom_kds.py` | Projenin ana Python kaynak kodudur (Source Code). OpenCV tabanlı görüntü işleme ve KDS karar motorunu içerir. |
-| `Otonom_Arac_KDS.ipynb` | Projenin Google Colab ortamında bulut üzerinde interaktif olarak çalıştırılmasını sağlayan notebook dosyasıdır. |
-| `Otonom Sürüş Takip Sistemi Makalesi` | Yazım kurallarına uygun (Times New Roman, 1.5 satır aralığı), humanize edilmiş, intihal testlerinden muaf nihai akademik makale raporudur. |
-| `makale_orijinal.jpg` | Veri setinden alınan gürültülü ham kamera görüntüsü (Giriş katmanı). |
-| `makale_kenar_segmentasyonu.jpg` | Canny ve İlgi Alanı (ROI) maskeleme sonrası elde edilen yolun matematiksel iskeleti. |
-| `makale_kds_hud_ciktisi.jpg` | Sürülebilir yeşil alan segmentasyonu, şerit izolatörleri ve üst telemetri HUD panelini içeren nihai çıktı katmanı. |
-| `kds_nihai_performans_grafigi.png` | 5000 kare boyunca KDS'nin anlık sapma trendlerini ve kritik müdahale alanlarını gösteren performans analiz grafiği. |
-
----
-
 ## 📊 Önemli Bağlantılar (Veri Seti & Çıktılar)
 
 * **Google Colab Çalışma Ortamı:** https://drive.google.com/file/d/1NdEFtuK_MY1hE5Bj7GWv8fM_DHWAPO_r/view?usp=sharing
